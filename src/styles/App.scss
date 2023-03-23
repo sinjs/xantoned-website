@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+@import "~bootstrap/scss/bootstrap";
+
+.btn-applemusic {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: #f94c57;
+  --bs-btn-border-color: #f94c57;
+  --bs-btn-border-radius: 0.5rem;
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #{shade-color(#f94c57, 10%)};
+  --bs-btn-hover-border-color: #{shade-color(#f94c57, 10%)};
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #{shade-color(#f94c57, 20%)};
+  --bs-btn-active-border-color: #{shade-color(#f94c57, 20%)};
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-deezer {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: #111111;
+  --bs-btn-border-color: #111111;
+  --bs-btn-border-radius: 0.5rem;
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #{shade-color(#111111, 10%)};
+  --bs-btn-hover-border-color: #{shade-color(#111111, 10%)};
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #{shade-color(#111111, 20%)};
+  --bs-btn-active-border-color: #{shade-color(#111111, 20%)};
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-amazon {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: #146eb4;
+  --bs-btn-border-color: #146eb4;
+  --bs-btn-border-radius: 0.5rem;
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #{shade-color(#146eb4, 10%)};
+  --bs-btn-hover-border-color: #{shade-color(#146eb4, 10%)};
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #{shade-color(#146eb4, 20%)};
+  --bs-btn-active-border-color: #{shade-color(#146eb4, 20%)};
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn-spotify {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: #1db954;
+  --bs-btn-border-color: #1db954;
+  --bs-btn-border-radius: 0.5rem;
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #{shade-color(#1db954, 10%)};
+  --bs-btn-hover-border-color: #{shade-color(#1db954, 10%)};
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #{shade-color(#1db954, 20%)};
+  --bs-btn-active-border-color: #{shade-color(#1db954, 20%)};
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.slick-next,
+.slick-prev {
+  color: black !important;
+  height: 24px !important;
+  width: 24px !important;
+  z-index: 0;
+  margin-left: 5px;
+  margin-right: 5px;
 }
