@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
 import App from "./components/App";
+import Router from "./components/Router";
 import reportWebVitals from "./reportWebVitals";
 import "./styles/index.scss";
 import "./styles/lib/slick.css";
@@ -10,7 +12,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
   </React.StrictMode>
 );
 
