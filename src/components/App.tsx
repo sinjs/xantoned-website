@@ -71,7 +71,7 @@ function App() {
     let array: JSX.Element[] = [];
     for (const release of releases) {
       array.push(
-        <Card className="bg-dark text-light p-2">
+        <Card className="bg-dark text-light p-2 border-start border-end rounded-0 border-secondary">
           <Card.Img
             variant="top"
             src={process.env.PUBLIC_URL + "/img/cover_" + release.cover}
@@ -164,26 +164,28 @@ function App() {
   const slider_settings: SliderSettings = {
     className: "center",
     infinite: true,
-    centerPadding: "60px",
     slidesToShow: 3,
     lazyLoad: "ondemand",
     speed: 300,
+    dotsClass: "text-light slick-dots",
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 2,
+          slidesToScroll: 1,
           infinite: true,
           dots: true,
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 900,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
+          slidesToScroll: 1,
+          initialSlide: 1,
+          infinite: true,
+          dots: true,
         },
       },
       {
@@ -191,6 +193,8 @@ function App() {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          infinite: true,
+          dots: true,
         },
       },
     ],
@@ -227,7 +231,12 @@ function App() {
               <p className="fs-1">Releases</p>
             </Container>
             <Container className="Releases">
-              <Slider {...slider_settings}>{computeReleases()}</Slider>
+              <Slider
+                {...slider_settings}
+                className="border-secondary border border-2 rounded-3"
+              >
+                {computeReleases()}
+              </Slider>
             </Container>
           </Container>
         </Row>

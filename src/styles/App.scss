@@ -62,10 +62,24 @@
 
 .slick-next,
 .slick-prev {
-  color: whitesmoke !important;
+  color: var(--bs-secondary) !important;
   height: 24px !important;
   width: 24px !important;
   z-index: 0;
-  margin-left: 5px;
-  margin-right: 5px;
+}
+
+.slick-prev {
+  left: -22px !important;
+}
+
+.slick-next {
+  right: -22px !important;
+}
+
+.slick-dots {
+  li {
+    button::before {
+      color: var(--bs-light) !important;
+    }
+  }
 }
