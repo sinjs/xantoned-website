@@ -12,6 +12,6 @@ export default {
     },
   },
   footer: {
-    text_center: "Copyright &copy; 2023 XANTONED",
+    text_center: "Copyright © 2023 XANTONED",
   },
 };
