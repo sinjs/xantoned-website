@@ -71,7 +71,10 @@ function App() {
     let array: JSX.Element[] = [];
     for (const release of releases) {
       array.push(
-        <Card className="bg-dark text-light p-2 border-start border-end rounded-0 border-secondary">
+        <Card
+          className="bg-dark text-light p-2 border-start border-end rounded-0 border-secondary"
+          key={release.name}
+        >
           <Card.Img
             variant="top"
             src={process.env.PUBLIC_URL + "/img/cover_" + release.cover}
@@ -222,7 +225,7 @@ function App() {
           <Container className="Main">
             <Container className="Title my-3 text-center">
               <p className="fw-bold" style={{ fontSize: "50px" }}>
-                XAN TONED
+                XANTONED
               </p>
               <p className="fs-3">Guten moiregen</p>
             </Container>
