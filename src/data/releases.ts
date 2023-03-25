@@ -1,7 +1,7 @@
 export default [
   {
     name: "Demon Blood",
-    cover: "demonblood.png",
+    cover: "demonblood.webp",
     links: {
       spotify: "https://open.spotify.com/track/33NkHAKFtm2b2wyLNuIGA5",
       youtube: "https://youtu.be/2perPONe6Sw",
@@ -12,7 +12,7 @@ export default [
   },
   {
     name: "Demon Blood, Pt. 2",
-    cover: "demonblood2.png",
+    cover: "demonblood2.webp",
     links: {
       spotify: "https://open.spotify.com/track/3iZJCsEOmBcGEEAefRhZLn",
       youtube: "https://youtu.be/p8esKpKl9A4",
@@ -23,7 +23,7 @@ export default [
   },
   {
     name: "Demon Blood, Pt. 3",
-    cover: "demonblood3.png",
+    cover: "demonblood3.webp",
     links: {
       spotify: "https://open.spotify.com/track/6rX3wtVpFV608rE7RcsrUh",
       youtube: "https://youtu.be/YKf6HUzpC5k",
