@@ -73,7 +73,7 @@ function App() {
               <Col />
               <Col className="text-center">XANTONED</Col>
               <Col className="text-end">
-                <FontAwesomeIcon icon={faBars} size="lg" />
+                <FontAwesomeIcon className="me-4" icon={faBars} size="lg" />
               </Col>
             </Row>
           </Container>
