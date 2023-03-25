@@ -4,8 +4,8 @@ export default {
   },
   main: {
     title: {
-      main: "XANTONED",
-      sub: "Guten moiregen",
+      main: "XAN Toned",
+      sub: "very gut phonk prod!!!!1!1!",
     },
     releases: {
       title: "Releases",
