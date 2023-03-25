@@ -8,6 +8,7 @@ import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import Slider, { Settings as SliderSettings } from "react-slick";
 import releases from "../data/releases";
+import text from "../data/text";
 import "../styles/App.scss";
 import "../styles/index.scss";
 import Release from "./Release";
@@ -71,7 +72,7 @@ function App() {
           <Container className="Header bg-black text-light py-3">
             <Row>
               <Col />
-              <Col className="text-center">XANTONED</Col>
+              <Col className="text-center">{text.header.text_center}</Col>
               <Col className="text-end">
                 <FontAwesomeIcon className="me-4" icon={faBars} size="lg" />
               </Col>
@@ -82,13 +83,13 @@ function App() {
           <Container className="Main">
             <Container className="Title my-3 text-center">
               <p className="fw-bold" style={{ fontSize: "50px" }}>
-                XANTONED
+                {text.main.title.main}
               </p>
-              <p className="fs-3">Guten moiregen</p>
+              <p className="fs-3">{text.main.title.sub}</p>
             </Container>
             <hr className="border border-light border-2" />
             <Container className="ReleasesTitle">
-              <p className="fs-1">Releases</p>
+              <p className="fs-1">{text.main.releases.title}</p>
             </Container>
             <Container className="Releases">
               <Slider
@@ -102,7 +103,7 @@ function App() {
         </Row>
         <Row className="FooterOuter mt-auto">
           <Container className="Footer mt-auto bg-black text-muted text-center py-3">
-            <span>Copyright &copy; 2023 XAN Toned</span>
+            <span>{text.footer.text_center}</span>
           </Container>
         </Row>
       </Container>
