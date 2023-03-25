@@ -207,18 +207,18 @@ function App() {
   return (
     <div className="bg-dark h-100">
       <Container fluid className="App d-flex flex-column h-100">
-        <Row className="HeaderOuter">
+        <Row className="HeaderOuter fixed-top">
           <Container className="Header bg-black text-light py-3">
             <Row>
               <Col />
-              <Col className="text-center">XAN TONED</Col>
+              <Col className="text-center">XANTONED</Col>
               <Col className="text-end">
                 <FontAwesomeIcon icon={faBars} size="lg" />
               </Col>
             </Row>
           </Container>
         </Row>
-        <Row className="MainOuter flex-shrink-0 bg-dark text-light pb-2">
+        <Row className="MainOuter flex-shrink-0 bg-dark text-light pb-2 pt-5">
           <Container className="Main">
             <Container className="Title my-3 text-center">
               <p className="fw-bold" style={{ fontSize: "50px" }}>
