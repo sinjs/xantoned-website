@@ -1,11 +1,11 @@
 export default {
   header: {
-    text_center: "XANTONED",
+    text_center: "DEMON BLOOD 3 OUT NOW",
   },
   main: {
     title: {
       main: "XAN Toned",
-      sub: "very gut phonk prod!!!!1!1!",
+      sub: " ",
     },
     releases: {
       title: "Releases",
