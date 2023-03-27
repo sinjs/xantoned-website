@@ -1,6 +1,6 @@
 export default {
   header: {
-    text_center: "DEMON BLOOD 3 OUT NOW",
+    text_center: "DEMON BLOOD 3 ONLINE",
   },
   main: {
     title: {
