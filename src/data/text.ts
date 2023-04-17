@@ -1,4 +1,4 @@
-export default {
+export default /*@XSTART*/{
   header: {
     text_center: "DEMON BLOOD 3 ONLINE",
   },
@@ -14,4 +14,4 @@ export default {
   footer: {
     text_center: "Copyright © 2023 XANTONED",
   },
-};
+}/*@XEND*/
