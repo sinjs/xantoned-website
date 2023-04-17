@@ -1,4 +1,4 @@
-export default [
+export default /*@XSTART*/[
   {
     name: "Demon Blood",
     cover: "demonblood.webp",
@@ -31,5 +31,5 @@ export default [
       apple: "https://music.apple.com/de/album/demon-blood-pt-3/",
       deezer: "https://deezer.page.link/fG5h5qnFmYguux6d7",
     },
-  },
-] as Release[];
+  }
+]/*@XEND*/ as Release[];
