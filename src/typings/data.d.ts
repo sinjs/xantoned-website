@@ -1,3 +1,8 @@
+interface Artist {
+  name: string;
+  releases: Release[];
+}
+
 interface Release {
   name: string;
   cover: string;
